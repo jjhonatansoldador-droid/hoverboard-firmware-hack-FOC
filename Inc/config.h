@@ -200,5 +200,8 @@
   #error DEBUG_SERIAL_USART3 and FEEDBACK_SERIAL_USART3 not allowed, choose one.
 #endif
 // ############################# END OF VALIDATE SETTINGS ############################
-
+#define MULTIPLE_TAP_NR 4
+#define MULTIPLE_TAP_HI 600
+#define MULTIPLE_TAP_LO 200
+#define MULTIPLE_TAP_TIMEOUT 2000
 #endif
