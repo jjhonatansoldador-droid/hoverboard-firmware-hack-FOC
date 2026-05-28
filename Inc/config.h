@@ -105,7 +105,7 @@
 #define FIELD_WEAK_HI 1000
 #define FIELD_WEAK_LO 750
 
-#define STANDSTILL_HOLD_ENABLE // ← ativado
+//define STANDSTILL_HOLD_ENABLE // ← ativado
 #define ELECTRIC_BRAKE_ENABLE // ← ativado
 #define ELECTRIC_BRAKE_MAX 100
 #define ELECTRIC_BRAKE_THRES 120
