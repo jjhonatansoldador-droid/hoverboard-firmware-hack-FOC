@@ -95,7 +95,7 @@
 #define CTRL_MOD_REQ VLT_MODE // ← TORQUE mode (alterado)
 #define DIAG_ENA 1
 
-#define I_MOT_MAX 15 // ← alterado de 15 para 20
+#define I_MOT_MAX 20 // ← alterado de 15 para 20
 #define I_DC_MAX 17 // ← alterado de 17 para 22
 #define N_MOT_MAX 800 // ← alterado de 1000 para 800
 
