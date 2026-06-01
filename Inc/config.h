@@ -95,8 +95,8 @@
 #define CTRL_MOD_REQ TRQ_MODE // ← TORQUE mode (alterado)
 #define DIAG_ENA 1
 
-#define I_MOT_MAX 8 // ← alterado de 15 para 20
-#define I_DC_MAX 10 // ← alterado de 17 para 22
+#define I_MOT_MAX 15 // ← alterado de 15 para 20
+#define I_DC_MAX 17 // ← alterado de 17 para 22
 #define N_MOT_MAX 800 // ← alterado de 1000 para 800
 
 #define FIELD_WEAK_ENA 0
@@ -106,7 +106,7 @@
 #define FIELD_WEAK_LO 750
 
 //#define STANDSTILL_HOLD_ENABLE // ← ativado
-//define ELECTRIC_BRAKE_ENABLE // ← ativado
+#define ELECTRIC_BRAKE_ENABLE // ← ativado
 #define ELECTRIC_BRAKE_MAX 100
 #define ELECTRIC_BRAKE_THRES 120
 // ########################### END OF MOTOR CONTROL ########################
