@@ -92,7 +92,7 @@
 #define MOTOR_RIGHT_ENA
 
 #define CTRL_TYP_SEL FOC_CTRL
-#define CTRL_MOD_REQ SPD_MODE // ← TORQUE mode (alterado)
+#define CTRL_MOD_REQ TRQ_MODE // ← TORQUE mode (alterado)
 #define DIAG_ENA 1
 
 #define I_MOT_MAX 8 // ← alterado de 15 para 20
