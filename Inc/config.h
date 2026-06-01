@@ -119,8 +119,8 @@
 #define ADC_PROTECT_THRESH 200
 #define AUTO_CALIBRATION_ENA
 
-#define DEFAULT_RATE 100 // ← alterado de 480 para 320
-#define DEFAULT_FILTER 600 // ← alterado de 6553 para 3276
+#define DEFAULT_RATE 320 // ← alterado de 480 para 320
+#define DEFAULT_FILTER 3276 // ← alterado de 6553 para 3276
 #define DEFAULT_SPEED_COEFFICIENT 16384
 #define DEFAULT_STEER_COEFFICIENT 8192
 // ######################### END OF DEFAULT SETTINGS ##########################
