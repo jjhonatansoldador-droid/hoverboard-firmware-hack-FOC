@@ -97,7 +97,7 @@
 
 #define I_MOT_MAX 25 // ← alterado de 15 para 20
 #define I_DC_MAX 27 // ← alterado de 17 para 22
-#define N_MOT_MAX 800 // ← alterado de 1000 para 800
+#define N_MOT_MAX 800 // ← alterado de 1000 para 600
 
 #define FIELD_WEAK_ENA 0
 #define FIELD_WEAK_MAX 5
