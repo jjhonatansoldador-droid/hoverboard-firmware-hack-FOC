@@ -95,8 +95,8 @@
 #define CTRL_MOD_REQ SPD_MODE // ← TORQUE mode (alterado)
 #define DIAG_ENA 1
 
-#define I_MOT_MAX 6 // ← alterado de 15 para 20
-#define I_DC_MAX 8 // ← alterado de 17 para 22
+#define I_MOT_MAX 8 // ← alterado de 15 para 20
+#define I_DC_MAX 10 // ← alterado de 17 para 22
 #define N_MOT_MAX 800 // ← alterado de 1000 para 800
 
 #define FIELD_WEAK_ENA 0
