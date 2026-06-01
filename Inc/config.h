@@ -92,7 +92,7 @@
 #define MOTOR_RIGHT_ENA
 
 #define CTRL_TYP_SEL FOC_CTRL
-#define CTRL_MOD_REQ VLT_MODE // ← TORQUE mode (alterado)
+#define CTRL_MOD_REQ SPD_MODE // ← TORQUE mode (alterado)
 #define DIAG_ENA 1
 
 #define I_MOT_MAX 25 // ← alterado de 15 para 20
@@ -119,8 +119,8 @@
 #define ADC_PROTECT_THRESH 200
 #define AUTO_CALIBRATION_ENA
 
-#define DEFAULT_RATE 320 // ← alterado de 480 para 320
-#define DEFAULT_FILTER 3276 // ← alterado de 6553 para 3276
+#define DEFAULT_RATE 100 // ← alterado de 480 para 320
+#define DEFAULT_FILTER 600 // ← alterado de 6553 para 3276
 #define DEFAULT_SPEED_COEFFICIENT 16384
 #define DEFAULT_STEER_COEFFICIENT 8192
 // ######################### END OF DEFAULT SETTINGS ##########################
