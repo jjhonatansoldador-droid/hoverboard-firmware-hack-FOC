@@ -72,9 +72,9 @@
 #define TEMP_CAL_LOW_DEG_C 358
 #define TEMP_CAL_HIGH_ADC 1588
 #define TEMP_CAL_HIGH_DEG_C 489
-#define TEMP_WARNING_ENABLE 0
+#define TEMP_WARNING_ENABLE 1
 #define TEMP_WARNING 600
-#define TEMP_POWEROFF_ENABLE 0
+#define TEMP_POWEROFF_ENABLE 1
 #define TEMP_POWEROFF 650
 // ######################## END OF TEMPERATURE ###############################
 
@@ -105,9 +105,9 @@
 #define FIELD_WEAK_HI 1000
 #define FIELD_WEAK_LO 750
 
-//#define STANDSTILL_HOLD_ENABLE // ← ativado
+#define STANDSTILL_HOLD_ENABLE // ← ativado
 #define ELECTRIC_BRAKE_ENABLE // ← ativado
-#define ELECTRIC_BRAKE_MAX 1000
+#define ELECTRIC_BRAKE_MAX 250
 #define ELECTRIC_BRAKE_THRES 120
 // ########################### END OF MOTOR CONTROL ########################
 
